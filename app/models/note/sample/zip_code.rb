@@ -9,4 +9,8 @@ class Note::Sample::ZipCode < Note::SKOS::Base
     "partials/note/sample/edit_zip_code"
   end
 
+  def language
+    nil
+  end
+
 end
