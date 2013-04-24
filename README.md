@@ -1,3 +1,5 @@
+sample for custom iQvoc applications
+
 1. create new
    [iQvoc-based application](https://github.com/innoq/iqvoc/wiki/iQvoc-as-a-Rails-Engine):
 
@@ -9,6 +11,8 @@
 
 1. prepare database:
 
-    $ bundle exec rake db:create
-    $ bundle exec rake db:migrate
-    $ bundle exec rake iqvoc:db:seed
+        $ bundle exec rake db:create
+        $ bundle exec rake db:migrate
+        $ bundle exec rake iqvoc:db:seed
+
+1. see commit log for an example of how to create custom notes
